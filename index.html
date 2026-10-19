@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashina poygasi</title>
+    <link rel="stylesheet" href="./css/stayl.css">
+</head>
+<body>
+
+    <div class="game">
+        <h1>🏎️ MASHINA POYGASI</h1>
+
+        <div class="scoreboard">
+            <div>Ball: <span id="score">0</span></div>
+            <div>Rekord: <span id="best">0</span></div>
+        </div>
+
+        <div class="road" id="road">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+
+            <div class="car player" id="player"></div>
+            <div id="enemies"></div>
+
+            <div class="overlay" id="overlay">
+                <h2 id="title">Poyga boshlansin!</h2>
+                <p id="info">Boshqa mashinalarga urilmang!</p>
+                <button id="start">BOSHLASH</button>
+            </div>
+        </div>
+
+        <p class="help">⬅️ ➡️ yoki A / D — mashinani boshqarish</p>
+
+        <div class="controls">
+            <button id="left">◀ CHAP</button>
+            <button id="right">O‘NG ▶</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
